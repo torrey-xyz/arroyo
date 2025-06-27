@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": ["source"]
+    },
+    "accounts": {
+      "type": "array",
+      "items": { "type": "string" },
+      "title": "Account Filters"
+    },
+    "programs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "title": "Program Filters"
+    },
+    "transactions": {
+      "type": "object",
+      "title": "Transaction Filters"
+    }
+  },
+  "required": ["type"],
+  "additionalProperties": false
+}

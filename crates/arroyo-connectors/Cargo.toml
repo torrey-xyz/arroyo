@@ -90,5 +90,9 @@ rustls = "0.22"
 async-nats = "0.38.0"
 nkeys = "0.3.0"
 
+# Yellowstone 
+yellowstone-grpc-proto = "6.1.0"
+yellowstone-grpc-client = "6.1.0"
+
 [build-dependencies]
 glob = "0.3"

@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "endpoint": {
+      "type": "string",
+      "format": "var-str",
+      "title": "Yellowstone gRPC Endpoint",
+      "description": "The gRPC endpoint URL"
+    },
+    "x_token": {
+      "type": "string",
+      "format": "var-str",
+      "title": "X-Token",
+      "description": "Authentication token for Yellowstone gRPC"
+    }
+  },
+  "required": ["endpoint"],
+  "additionalProperties": false
+}

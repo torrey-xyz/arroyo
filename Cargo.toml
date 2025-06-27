@@ -47,7 +47,7 @@ arrow-schema = { version = "=53.2.0" }
 arrow-json = { version = "=53.2.0" }
 object_store = { version = "0.11" }
 parquet = { version = "=53.2.0" }
-ahash = { version = "=0.8.7" }
+ahash = { version = "0.8.7" }
 datafusion = { version = "43.0.0" }
 datafusion-common = { version = "43.0.0" }
 datafusion-proto = { version = "43.0.0" }
@@ -104,3 +104,4 @@ object_store = { git = 'http://github.com/ArroyoSystems/arrow-rs', branch = 'obj
 
 cornucopia_async = { git = "https://github.com/ArroyoSystems/cornucopia", branch = "sqlite" }
 cornucopia = { git = "https://github.com/ArroyoSystems/cornucopia", branch = "sqlite" }
+# curve25519-dalek = { git = "https://github.com/anza-xyz/curve25519-dalek.git", rev = "b500cdc2a920cd5bff9e2dd974d7b97349d61464" }

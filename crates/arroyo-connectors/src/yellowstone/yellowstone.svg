@@ -1,0 +1,12 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellowstoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="20" height="16" x="2" y="4" rx="2" fill="url(#yellowstoneGradient)" stroke="#FF8C00" stroke-width="0.5"/>
+  <path d="M6 8h12M6 12h12M6 16h8" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="18" cy="6" r="2" fill="#32CD32" stroke="#228B22" stroke-width="0.5"/>
+  <path d="M7 2L12 7L17 2" stroke="#FF8C00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> 
